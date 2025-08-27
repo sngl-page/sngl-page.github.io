@@ -688,6 +688,38 @@
   position: absolute;
   inset-inline-end: 0.75rem;
 }
+:root {
+  --selection-bg: #c7d2fe;
+  --selection-fg: #111827;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --selection-bg: #4338ca;
+    --selection-fg: #f8fafc;
+  }
+}
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-fg);
+}
+::-moz-selection {
+  background: var(--selection-bg);
+  color: var(--selection-fg);
+}
+input::selection,
+textarea::selection,
+button::selection,
+select::selection {
+  background: var(--selection-bg);
+  color: var(--selection-fg);
+}
+input::-moz-selection,
+textarea::-moz-selection,
+button::-moz-selection,
+select::-moz-selection {
+  background: var(--selection-bg);
+  color: var(--selection-fg);
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
