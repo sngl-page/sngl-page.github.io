@@ -6,7 +6,8 @@
   "lang": "en-US",
   "display": "standalone",
   "orientation": "any",
-  "start_url": "/?homescreen=1",
+  "scope": "/click-dose/",
+  "start_url": "/click-dose/",
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",
   "icons": [
