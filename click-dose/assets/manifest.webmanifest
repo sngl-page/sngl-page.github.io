@@ -8,7 +8,7 @@
   "orientation": "any",
   "scope": "/click-dose/",
   "start_url": "/click-dose/",
-  "background_color": "#ffffff",
+  "background_color": "#4e4d4e",
   "theme_color": "#4f46e5",
   "icons": [
     {
